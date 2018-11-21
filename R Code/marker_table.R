@@ -24,7 +24,8 @@ marker_table<- function(os_barcode)
   f_barcode <- pet$content$PET_FATHER$Barcode
   m_barcode <-  pet$content$PET_MOTHER$Barcode
   
-  print(is.null(m_barcode))
+ 
+   print(is.null(m_barcode))
   
   
   m_table <-parental_varification(creds,os_barcode,m_barcode,f_barcode)
